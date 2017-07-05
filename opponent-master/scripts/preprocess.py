@@ -286,7 +286,7 @@ def write_example(qids, output_file, have_buzz=False):
                 fout.write(('%s\n' % (' ||| '.join([str(qid), cat, ans, fold, qtext, buzz]))).encode('utf8'))
             else:
                 fout.write(('%s\n' % (' ||| '.join([str(qid), cat, ans, fold, qtext]))).encode('utf8'))
-
+                print("this is an example write")
 
 
 if __name__ == '__main__':
