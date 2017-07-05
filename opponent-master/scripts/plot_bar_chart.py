@@ -75,4 +75,3 @@ if __name__ == '__main__':
     ax.legend(loc='lower right', fontsize=text_size)
     fig.tight_layout()
     plt.savefig(output)
-    print("Python learning")
